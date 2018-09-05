@@ -1,0 +1,5 @@
+#!/bin/sh
+
+IMAGE=thomasweise/texlive
+TAG=1.0.0
+docker run -v /Users/fgao/Documents/CV-latex/:/doc/ ${IMAGE}:${TAG} xelatex.sh resume
